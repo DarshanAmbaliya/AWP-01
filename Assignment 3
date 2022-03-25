@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>First Page</title> 
+<style>
+    a:link {
+        color : blue;
+    }
+    a:visited  {
+        color : green;
+    } 
+    a:active {
+        color : red ;
+    }
+</style>
+</head>
+
+<body>
+<h1> First Paragraph </h1>
+
+<p> HTML (HyperText Markup Language) is the most basic building block of the Web.</p>
+
+<h2> Second Paragraph </h2>
+
+<p>HTML is not a programming language; it is a markup language that defines the structure of your content.</p>
+<h3>List</h3>
+<ul>
+    <li>Apple</li>
+    <li>Ocean</li>
+        <ul>
+            <li>Blue</li>
+            <li>Red</li>
+        </ul>
+</ul>
+<h3>Types of CSS</h3>
+<ol type="1">
+    <li>Inline CSS</li>
+    <li>Ecternal CSS</li>
+    <li>Internal CSS</li>
+  </ol>
+
+<h1>BGMI Image</h1>
+  <img src="E:\OneDrive\Pictures\BGMI.jpeg" height=400 width=500 alt="oops!!"> 
+
+  <h2>HTML and CSS</h2>
+<a href="E:\OneDrive\Desktop\Introduction.html" >HTML and CSS Introduction</a>
+<br>
+<h3>How to set cursor style to pointer for links without href ?</h3>
+ <a onmouseover="this.style.cursor='pointer'">Example link</a>
+
+ <h1 style="color:blue;">GitHub </h1>
+ <a href="https://github.com/logos">
+ <img src="E:\OneDrive\Pictures\GitHub.png"></a>
+
+    
+</body>
+</html>
